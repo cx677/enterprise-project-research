@@ -4,6 +4,12 @@ All notable changes are documented here. This project follows semantic versionin
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-11-18
+
+### Fixed
+
+- Install PyYAML before package validation in GitHub Actions.
+
 ## [0.1.0] - 2026-11-18
 
 ### Added

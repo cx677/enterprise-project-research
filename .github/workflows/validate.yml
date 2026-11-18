@@ -21,5 +21,8 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Install validation dependencies
+        run: python3 -m pip install pyyaml
+
       - name: Validate package
         run: python3 scripts/validate_package.py
