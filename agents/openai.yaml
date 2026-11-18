@@ -1,0 +1,7 @@
+interface:
+  display_name: "Enterprise Project Research"
+  short_description: "Evidence-graded research for enterprise platforms and architectures"
+  default_prompt: "Use $enterprise-project-research to research the requested enterprise product or architecture, reconstruct it with evidence grades, compare alternatives, and map useful mechanisms to my project."
+
+policy:
+  allow_implicit_invocation: true
